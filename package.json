@@ -1,0 +1,11 @@
+{
+  "name": "stitch-admin-ui",
+  "version": "0.1.0",
+  "private": true,
+  "description": "UI files imported from attachment",
+  "scripts": {
+    "dev": "echo \"No dev server configured\" && exit 0"
+  },
+  "author": "",
+  "license": "MIT"
+}
