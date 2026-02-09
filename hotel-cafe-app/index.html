@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel & Café Management System</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <!-- SIDEBAR NAVIGATION -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span style="font-size: 1.5em;">🏨</span>
+                    <span>HotelCafe</span>
+                </div>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <button class="nav-link active" data-page="dashboard">
+                            <span class="nav-icon">📊</span>
+                            <span>Dashboard</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-page="establishments">
+                            <span class="nav-icon">🏢</span>
+                            <span>Establishments</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-page="menus">
+                            <span class="nav-icon">📋</span>
+                            <span>Menus</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-page="staff">
+                            <span class="nav-icon">👥</span>
+                            <span>Staff Management</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-page="qrcodes">
+                            <span class="nav-icon">📱</span>
+                            <span>QR Codes</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-page="orders">
+                            <span class="nav-icon">📦</span>
+                            <span>Orders</span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" data-page="settings">
+                            <span class="nav-icon">⚙️</span>
+                            <span>Settings</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            <!-- TOP HEADER -->
+            <div class="top-header">
+                <div class="header-title">
+                    <h1 id="page-title">Welcome to Hotel & Café Management</h1>
+                    <p class="header-subtitle">Manage your establishments efficiently</p>
+                </div>
+                <div class="user-section">
+                    <div class="user-avatar" title="Admin User">A</div>
+                    <button class="logout-btn" id="logout-btn">🚪 Logout</button>
+                </div>
+            </div>
+
+            <!-- DASHBOARD PAGE -->
+            <div id="dashboard-page" class="page active">
+                <!-- Content loaded by JavaScript -->
+            </div>
+
+            <!-- ESTABLISHMENTS PAGE -->
+            <div id="establishments-page" class="page">
+                <!-- Content loaded by JavaScript -->
+            </div>
+
+            <!-- MENUS PAGE -->
+            <div id="menus-page" class="page">
+                <!-- Content loaded by JavaScript -->
+            </div>
+
+            <!-- STAFF PAGE -->
+            <div id="staff-page" class="page">
+                <!-- Content loaded by JavaScript -->
+            </div>
+
+            <!-- QR CODES PAGE -->
+            <div id="qrcodes-page" class="page">
+                <!-- Content loaded by JavaScript -->
+            </div>
+
+            <!-- ORDERS PAGE -->
+            <div id="orders-page" class="page">
+                <!-- Content loaded by JavaScript -->
+            </div>
+
+            <!-- SETTINGS PAGE -->
+            <div id="settings-page" class="page">
+                <!-- Content loaded by JavaScript -->
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
